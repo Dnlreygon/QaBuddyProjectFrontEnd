@@ -1,5 +1,5 @@
 export default class page{
-    consructor() {
+    constructor() {
         this.title = 'My Page'
     }
 

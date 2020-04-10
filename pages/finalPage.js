@@ -2,7 +2,7 @@ import Page from './page'
 
 class FinalPage extends Page {
 
-    get homeLink() {return $('=Bandeja de entrada')}
+    get homeLink() {return $('#agenda_view header h1')}
 
 }
 

@@ -3,11 +3,19 @@ import Page from './page'
 class LoginPage extends Page {
 
     get Email(){return $(".input_email")}
-    get Contraseña(){ return $("#password")}
+    get Password(){ return $("#password")}
     get SubmitBtn(){return $(".submit_btn")}
 
-    open(){
-        super.open('https://todoist.com/es')
+    open(url){
+        super.open(url)
+    }
+
+    setEmail(email){
+        this.Email.setValue(email)
+    }
+
+    setPassword(password){
+        this.Password.setValue(password)
     }
 
     submit(){

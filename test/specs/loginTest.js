@@ -1,20 +1,19 @@
 import LoginPage from '../../pages/loginPage'
 import InitPage from '../../pages/initPage'
 import FinalPage from '../../pages/finalPage'
-const username = 'dnlreygon34@gmail.com'
-const password = 'contraseña123'
+import {} from 'dotenv/config'
 
 describe( 'login form' , () => {
-    before(async function(){
-        LoginPage.open()
-        await InitPage.submit();
+    beforeEach('Precondition',() => {
+        LoginPage.open('https://todoist.com/users/showLogin')
+        //InitPage.submit();
     })
 
-    instanceof('Caso de prueba postivo' , () => {
-        LoginPage.Email.setValue(username)
-        LoginPage.Contraseña.setValue(password)
-        LoginPage.Submit()
+    it('Caso de prueba postivo' , () => {
+        LoginPage.setEmail(process.env.EMAIL)
+        LoginPage.setPassword(process.env.PASSWORD)
+        LoginPage.submit()
 
-        expect( FinalPage.homeLink.getText()).to.equal('Bandeja de entrada')
+        expect(FinalPage.homeLink).toBeDisplayed()
     })
 })
