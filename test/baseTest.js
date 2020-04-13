@@ -2,9 +2,17 @@ import LoginPage from '../pages/loginPage'
 import {} from  'dotenv/config'
 class BaseTest{
 
-    precondition(){
-        LoginPage.open('https://todoist.com/users/showLogin')
+    loginFormFillValues(email , password){
+        LoginPage.setEmail(email)
+        LoginPage.setPassword(password)
+    }
 
+    loginOpenPage(){
+        LoginPage.open('https://todoist.com/users/showLogin')
+    }
+
+    loginSubmitValues(){
+        LoginPage.submit()
     }
 }
 

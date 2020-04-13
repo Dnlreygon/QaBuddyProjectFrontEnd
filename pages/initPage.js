@@ -2,7 +2,7 @@ import Page from './page'
 
 class InitPage extends Page {
 
-    get IniciarSesionBtn(){ return $("#Iniciar sesión")}
+    get IniciarSesionBtn(){ return $("//nav/div/ul/li/a[text()='Iniciar sesión']")}
 
     open() {
         super.open('login')

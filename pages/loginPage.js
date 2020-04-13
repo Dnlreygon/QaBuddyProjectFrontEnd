@@ -10,7 +10,7 @@ class LoginPage extends Page {
     get SubmitBtn(){return $(".submit_btn")}
 
     open(url){
-        super.open(url)
+        super.open('https://todoist.com/users/showLogin')
     }
 
     setEmail(email){
