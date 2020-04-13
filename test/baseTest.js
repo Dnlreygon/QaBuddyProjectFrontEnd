@@ -1,19 +1,19 @@
 import LoginPage from '../pages/loginPage'
-import {} from  'dotenv/config'
-class BaseTest{
+import {} from 'dotenv/config'
 
-    loginFormFillValues(email , password){
-        LoginPage.setEmail(email)
-        LoginPage.setPassword(password)
-    }
+class BaseTest {
+  loginFormFillValues (email, password) {
+    LoginPage.setEmail(email)
+    LoginPage.setPassword(password)
+  }
 
-    loginOpenPage(){
-        LoginPage.open('https://todoist.com/users/showLogin')
-    }
+  loginOpenPage () {
+    LoginPage.open('https://todoist.com/users/showLogin')
+  }
 
-    loginSubmitValues(){
-        LoginPage.submit()
-    }
+  loginSubmitValues () {
+    LoginPage.submit()
+  }
 }
 
 export default new BaseTest()

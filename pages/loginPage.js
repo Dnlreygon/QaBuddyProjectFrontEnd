@@ -9,37 +9,20 @@ class LoginPage extends Page {
     get WrongPwdMsg() {return $("//span[text()='Email o contraseña incorrectos']")}
     get SubmitBtn(){return $(".submit_btn")}
 
-    open(url){
-        super.open('https://todoist.com/users/showLogin')
+    open(url){super.open('https://todoist.com/users/showLogin')}
+
+    setEmail(email){this.Email.setValue(email)}
+
+    setPassword(password){this.Password.setValue(password)}
+
+    setInvalidEmailMsg(){this.InvalidEmailMsg.toBeDisplayed()}
+
+    setEmptyPwdMsg(){this.EmptyPwdMsg.toBeDisplayed()}
+   
+    setWrongPwdMsg(){this.WrongPwdMsg.toBeDisplayed()}
+    
+    submit(){this.SubmitBtn.click()}
     }
-
-    setEmail(email){
-        this.Email.setValue(email)
-    }
-
-    setPassword(password){
-        this.Password.setValue(password)
-    }
-
-    setInvalidEmailMsg(){
-        this.InvalidEmailMsg.toBeDisplayed()
-    }
-
-    setEmptyPwdMsg(){
-        this.EmptyPwdMsg.toBeDisplayed()
-    }
-
-    setWrongPwdMsg(){
-        this.WrongPwdMsg.toBeDisplayed()
-    }
-
-    submit(){
-        this.SubmitBtn.click()
-    }
-
-
-
-}
 
 export default new LoginPage()
 

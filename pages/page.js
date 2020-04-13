@@ -1,9 +1,5 @@
 export default class page{
-    constructor() {
-        this.title = 'My Page'
-    }
+    constructor() {this.title = 'My Page'}
 
-    open(path) {
-        browser.url(path)
-    }
+    open(path) {browser.url(path)}
 }

@@ -4,7 +4,8 @@
   "description": "QA Buddy Project for Daniel Reyes",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio wdio.conf.js"
+    "test": "npm run lint && npx wdio wdio.conf.js",
+    "lint": "eslint test/"
   },
   "repository": {
     "type": "git",
@@ -26,14 +27,22 @@
     "@wdio/mocha-framework": "^6.0.13",
     "@wdio/spec-reporter": "^6.0.14",
     "@wdio/sync": "^6.0.14",
+    "babel-eslint": "^10.1.0",
     "chromedriver": "^80.0.2",
     "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "geckodriver": "^1.19.1",
     "mocha": "^7.1.1",
     "wdio-chromedriver-service": "^6.0.1",
     "wdio-geckodriver-service": "^1.0.3"
   },
   "dependencies": {
+    "eslint-config-standard": "^14.1.1",
     "npm": "^6.14.4"
   }
 }
