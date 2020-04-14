@@ -26,15 +26,15 @@ jobs:
     - run: npm test
       env:
         CI: true
-        EMAIL: dnlreygon34@gmail.com
-        PASSWORD: contraseña123
+        EMAIL: ${{secrets.EMAIL}}
+        PASSWORD: ${{secrets.PASSWORD}}
         WRONGPASSWORD: wrong
         EMPTYPWD: 
         WRONGEMAIL: blabla
-        BROWSERSTACK_USERNAME: eduardo.contreras@wizeline.com
-        BROWSERSTACK_ACCESS_KEY: cRnaDyBopbq2EVKMdzrk
-        SAUCE_USERNAME: georgevx
-        SAUCE_ACCESS_KEY: dbb85f44-7514-4004-b952-b3ac248d0dbc
+        BROWSERSTACK_USERNAME: ${{secrets.BROWSERSTACK_USERNAME}}
+        BROWSERSTACK_ACCESS_KEY: ${{secrets.BROWSERSTACK_ACCESS_KEY}}
+        SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
+        SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
 
 
 
