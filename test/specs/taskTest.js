@@ -1,11 +1,10 @@
 import BaseTest from '../baseTest'
-import FinalPage from '../../pages/finalPage'
+import FinalPage from '../pages/finalPage'
 import {} from 'dotenv/config'
 
 describe('Adding Tasks', () => {
   const EMAIL = process.env.EMAIL
   const PASSWORD = process.env.PASSWORD
-  const TASK = process.env.TASK
 
   beforeEach('Log in', () => {
     BaseTest.loginOpenPage()
@@ -13,10 +12,12 @@ describe('Adding Tasks', () => {
     BaseTest.loginSubmitValues()
   })
 
-  it('Adding the first task', async () => {
+  it('Adding the first task', () => {
     FinalPage.clickAddTask()
-    await FinalPage.setTextBoxTask(TASK)
+    FinalPage.clickTextBoxTask()
+    FinalPage.setTextBoxTask('testing task')
+    browser.debug()
     FinalPage.clickAddTaskBtn()
-    expect(FinalPage.isTaskVisible(TASK)).toBeDisplayed()
+    expect(FinalPage.isTaskVisible('testing task'))
   })
 })

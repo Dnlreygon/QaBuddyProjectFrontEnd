@@ -8,6 +8,11 @@
         "mocha":true
     },
     "globals": {
-       "expect":"writable"
+            "$": true,
+            "$$": true,
+            "browser": true,
+            "expect": true,
+            "Atomics": "readonly",
+            "SharedArrayBuffer": "readonly"
     }
 }

@@ -1,6 +1,6 @@
 import BaseTest from '../baseTest'
-import FinalPage from '../../pages/finalPage'
-import LoginPage from '../../pages/loginPage'
+import FinalPage from '../pages/finalPage'
+import LoginPage from '../pages/loginPage'
 import {} from 'dotenv/config'
 
 describe('login form', () => {
