@@ -33,6 +33,7 @@ jobs:
         WRONGEMAIL: blabla
         SAUCE_USERNAME: ${{secrets.SAUCE_USERNAME}}
         SAUCE_ACCESS_KEY: ${{secrets.SAUCE_ACCESS_KEY}}
+        TASK: First Task
     - name: Slack Notify
       uses: rtCamp/action-slack-notify@v2.0.1
       env:
