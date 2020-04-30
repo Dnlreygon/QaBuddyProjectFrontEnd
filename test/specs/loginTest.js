@@ -23,18 +23,18 @@ describe('login form', () => {
   it('Negative TC - Invalid email', () => {
     BaseTest.loginFormFillValues(WRONGEMAIL, PASSWORD)
     BaseTest.loginSubmitValues()
-    expect(LoginPage.InvalidEmailMsg).toBeDisplayed()
+    expect(LoginPage.ErrorMsg).toBeDisplayed()
   })
 
   it('Negative TC - Wrong Pwd', () => {
     BaseTest.loginFormFillValues(EMAIL, WRONGPASSWORD)
     BaseTest.loginSubmitValues()
-    expect(LoginPage.WrongPwdMsg).toBeDisplayed()
+    expect(LoginPage.ErrorMsg).toBeDisplayed()
   })
 
   it('Negative TC - Empty Pwd', () => {
     BaseTest.loginFormFillValues(EMAIL, EMPTYPWD)
     BaseTest.loginSubmitValues()
-    expect(LoginPage.EmptyPwdMsg).toBeDisplayed()
+    expect(LoginPage.ErrorMsg).toBeDisplayed()
   })
 })

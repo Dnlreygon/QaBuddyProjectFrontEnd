@@ -31,7 +31,6 @@ describe('Adding Tasks', () => {
       FinalPage.clickTextBoxTask()
       FinalPage.setTextBoxTask(nameTask)
       FinalPage.clickAddTaskBtn()
-      browser.pause(2000)
       Assert.ok(FinalPage.isTaskCreated(nameTask))
     }
   })
