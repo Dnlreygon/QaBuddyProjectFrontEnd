@@ -1,2 +1,29 @@
-# qaBuddyProject
-QA Buddy Project for Daniel Reyes
+# The proyect needs the secrets below:
+- BROWSERSTACK_ACCESS_KEY
+- BROWSERSTACK_USERNAME
+- EMAIL
+- PASSWORD
+- SAUCE_ACCESS_KEY
+- SAUCE_USERNAME
+- SLACK_WEBHOOK
+
+# Setup
+- Clone the repository
+- Execute npm install
+
+# Run Login Tests & Task Test
+- Execute: ``` npm test ```
+
+# Static Analyst
+-Once our frontend finish, use the following command: ```allure generate ./allure-results && allure open```
+
+# CI
+
+- It runs in GitHub Actions once we do a ```commit``` & ```push```to our branch.
+
+# Cloud Cross Platform/Browser Provider
+- It runs on SauceLabs, please ensure to have proper credentials set in the secrets in order to use it.
+
+# INFO.
+
+This framework uses an .env file to read the test data you need to create an .env file and fill it with your data, you can find a .env-info as an example. Please add secrets to avoid use sensitive information as public like passwords or tokens.
