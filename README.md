@@ -1,53 +1,19 @@
-# qaBuddyProject
-QA Buddy Project for Daniel Reyes
+# Setup
+- Clone the repositry
+- Execute npm install
 
-Precondition: Open Browser
+# Run Login Tests & Task Test
+- Execute: ``` npm test ```
 
+# Run Backend Tests
+- Execute:``` npm test```
 
-Test Cases
+#Static Analyst
+-Once our frontend finish, use the following command: ```allure generate ./allure-results && allure open```
 
-Positive TC - Login successfull
+# CI
+- It runs in GitHub Actions once we do a ```commit``` & ```push```to our branch.
 
-   Given Navigate to https://todoist.com/users/showLogin
-   
-   When  Set correct email and password.
-   
-   AND   Click submit button.
-   
-   Then  Validate that we are in the final page.
-   
-   
-   
-Negative TC - Invalid Email
+# INFO.
 
-   Given Navigate to https://todoist.com/users/showLogin
-   
-   When  Set invalid email and password.
-   
-   AND   Click submit button.
-   
-   Then  Validate that invalid email message is displayed.
-   
-   
-   
-Negative TC -  Incorrect Password
-
-   Given Navigate to https://todoist.com/users/showLogin
-   
-   When  Set email and incorrect password.
-   
-   AND   Click submit button.
-   
-   Then  Validate that wrong password message is displayed.
-   
-   
-   
-Negative TC -  Empty Password
-
-   Given Navigate to https://todoist.com/users/showLogin
-   
-   When  Set email
-   
-   AND   Click submit button.
-   
-   Then  Validate that empty password message is displayed.
+This framework uses an .env file to read the test data you need to create an .env file and fill it with your data, you can find a .env-info as an example. Run source/pathto.envfile to load the file. Please add secrets to avoid use sensitive information as public like passwords or tokens.
