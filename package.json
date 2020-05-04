@@ -1,0 +1,52 @@
+{
+  "name": "uitesting",
+  "version": "1.0.0",
+  "description": "QA Buddy Project for Daniel Reyes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npx wdio wdio.conf.js",
+    "lint": "eslint test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgegpa/qaBuddyProjectFE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgegpa/qaBuddyProjectFE/issues"
+  },
+  "homepage": "https://github.com/jorgegpa/qaBuddyProjectFE#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@wdio/allure-reporter": "^6.0.14",
+    "@wdio/browserstack-service": "^6.0.12",
+    "@wdio/cli": "^6.0.14",
+    "@wdio/local-runner": "^6.0.14",
+    "@wdio/mocha-framework": "^6.0.13",
+    "@wdio/sauce-service": "^6.0.13",
+    "@wdio/spec-reporter": "^6.0.14",
+    "@wdio/sync": "^6.0.14",
+    "babel-eslint": "^10.1.0",
+    "chromedriver": "^80.0.2",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "geckodriver": "^1.19.1",
+    "mocha": "^7.1.1",
+    "wdio-chromedriver-service": "^6.0.3",
+    "wdio-geckodriver-service": "^1.0.3",
+    "wdio-phantomjs-service": "^0.2.2"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^14.1.1",
+    "npm": "^6.14.4"
+  }
+}
