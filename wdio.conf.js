@@ -52,10 +52,10 @@ exports.config = {
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
         maxInstances: 5,
-        browserName: 'chrome',
-        'goog:chromeOptions': {
-            args: ['--headless', '--disable-gpu'],
-        }
+        browserName: 'chrome'
+        // 'goog:chromeOptions': {
+        //     args: ['--headless', '--disable-gpu'],
+        // }
         // browserVersion: 'latest',
         // platformName: 'Windows 10',
         // 'sauce:options': {
@@ -73,7 +73,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'silent',
+    logLevel: 'info',
     //
     // Set specific log levels per logger
     // loggers:
