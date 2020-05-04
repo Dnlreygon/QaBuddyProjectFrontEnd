@@ -1,5 +1,5 @@
 import BaseTest from '../baseTest'
-import FinalPage from '../pages/finalPage'
+import DashboardPage from '../pages/dashboardPage'
 import LoginPage from '../pages/loginPage'
 import {} from 'dotenv/config'
 
@@ -17,7 +17,8 @@ describe('login form', () => {
   it('Positive TC - Login Successful', () => {
     BaseTest.loginFormFillValues(EMAIL, PASSWORD)
     BaseTest.loginSubmitValues()
-    expect(FinalPage.homeLink).toBeDisplayed()
+    DashboardPage.clickTimezoneBtn()
+    expect(DashboardPage.homeLink).toBeDisplayed()
   })
 
   it('Negative TC - Invalid email', () => {

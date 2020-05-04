@@ -1,5 +1,5 @@
 import BaseTest from '../baseTest'
-import FinalPage from '../pages/finalPage'
+import DashboardPage from '../pages/dashboardPage'
 import {} from 'dotenv/config'
 import Assert from 'assert'
 
@@ -12,26 +12,27 @@ describe('Adding Tasks', () => {
     BaseTest.loginOpenPage()
     BaseTest.loginFormFillValues(EMAIL, PASSWORD)
     BaseTest.loginSubmitValues()
+    DashboardPage.clickTimezoneBtn()
   })
 
   it('Adding the first task', () => {
     const nameTask = TASK + '_' + Math.floor(Date.now() / 10000)
-    FinalPage.clickAddTask()
-    FinalPage.clickTextBoxTask()
-    FinalPage.setTextBoxTask(nameTask)
-    FinalPage.clickAddTaskBtn()
+    DashboardPage.clickAddTask()
+    DashboardPage.clickTextBoxTask()
+    DashboardPage.setTextBoxTask(nameTask)
+    DashboardPage.clickAddTaskBtn()
     browser.pause(2000)
-    Assert.ok(FinalPage.isTaskCreated(nameTask))
+    Assert.ok(DashboardPage.isTaskCreated(nameTask))
   })
 
   it('Adding 10 tasks', () => {
     for (let index = 0; index < 10; index++) {
       const nameTask = TASK + '_' + Math.floor(Date.now() / 1000)
-      FinalPage.clickAddTask()
-      FinalPage.clickTextBoxTask()
-      FinalPage.setTextBoxTask(nameTask)
-      FinalPage.clickAddTaskBtn()
-      Assert.ok(FinalPage.isTaskCreated(nameTask))
+      DashboardPage.clickAddTask()
+      DashboardPage.clickTextBoxTask()
+      DashboardPage.setTextBoxTask(nameTask)
+      DashboardPage.clickAddTaskBtn()
+      Assert.ok(DashboardPage.isTaskCreated(nameTask))
     }
   })
 })
