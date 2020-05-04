@@ -12,7 +12,9 @@ describe('Adding Tasks', () => {
     BaseTest.loginOpenPage()
     BaseTest.loginFormFillValues(EMAIL, PASSWORD)
     BaseTest.loginSubmitValues()
-    DashboardPage.clickTimezoneBtn()
+    if (DashboardPage.isTimezoneAlertDisplayed()) {
+      DashboardPage.clickTimezoneBtn()
+    }
   })
 
   it('Adding the first task', () => {

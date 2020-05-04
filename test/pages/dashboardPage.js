@@ -24,10 +24,11 @@ class DashboardPage extends Page {
   }
 
   async clickTimezoneBtn () {
-    if (this.changeTimezoneBtn.isDisplayed()) {
-      this.changeTimezoneBtn.click()
-    }
-    console.log('timezone button not displayed')
+    this.changeTimezoneBtn.click()
+  }
+
+  async isTimezoneAlertDisplayed () {
+    return this.changeTimezoneBtn.isDisplayed()
   }
 
   async isTaskCreated (taskText) {
