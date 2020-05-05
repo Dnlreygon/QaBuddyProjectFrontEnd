@@ -14,7 +14,7 @@
 # Run Login Tests & Task Test
 - Execute: ``` npm test ```
 
-# Static Analyst
+# Allure Reporter
 - Once our frontend finish, use the following command: ```allure generate ./allure-results && allure open```
 
 # Headless Execution
