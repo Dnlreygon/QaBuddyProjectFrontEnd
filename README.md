@@ -20,7 +20,7 @@
 # Headless Execution
 - For using headless browser (Chrome) in this project we need to configure the `wdio.config.js` file with the next setup
 
-capabilities: [{maxInstances: 5,
+```capabilities: [{maxInstances: 5,
         browserName: 'chrome',
        'goog:chromeOptions': {
         // to run chrome headless the following flags are required
@@ -29,6 +29,7 @@ capabilities: [{maxInstances: 5,
         }
      }],
 services : [chromedriver],
+```
 
 # CI
 
