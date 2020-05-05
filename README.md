@@ -15,7 +15,7 @@
 - Execute: ``` npm test ```
 
 # Static Analyst
--Once our frontend finish, use the following command: ```allure generate ./allure-results && allure open```
+- Once our frontend finish, use the following command: ```allure generate ./allure-results && allure open```
 
 # CI
 
