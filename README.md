@@ -14,8 +14,23 @@
 # Run Login Tests & Task Test
 - Execute: ``` npm test ```
 
-# Static Analyst
--Once our frontend finish, use the following command: ```allure generate ./allure-results && allure open```
+# Allure Reporter
+- Once our frontend finish, use the following command: ```allure generate ./allure-results && allure open```
+
+# Headless Execution
+- For using headless browser (Chrome) in this project we need to configure the `wdio.config.js` file with the next setup
+
+```
+      capabilities: [{maxInstances: 5,
+        browserName: 'chrome',
+       'goog:chromeOptions': {
+        // to run chrome headless the following flags are required
+        // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
+         args: ['--headless', '--disable-gpu'],
+        }
+     }],
+services : [chromedriver],
+```
 
 # CI
 
