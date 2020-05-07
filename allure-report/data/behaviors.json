@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Adding the first task",
+    "uid" : "a6c87e8f68aa0a83",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1588713253462,
+      "stop" : 1588713326565,
+      "duration" : 73103
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Positive TC - Login Successful",
+    "uid" : "df8694ce9e84c418",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1588713272050,
+      "stop" : 1588713333566,
+      "duration" : 61516
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Adding 10 tasks",
+    "uid" : "160d69eb7be8805e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1588713326565,
+      "stop" : 1588713488554,
+      "duration" : 161989
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Negative TC - Invalid email",
+    "uid" : "977512f7daabc6b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1588713333567,
+      "stop" : 1588713339857,
+      "duration" : 6290
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Negative TC - Wrong Pwd",
+    "uid" : "890fed63791bdd9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1588713339857,
+      "stop" : 1588713346084,
+      "duration" : 6227
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Negative TC - Empty Pwd",
+    "uid" : "7ca1d95f8c8b0b24",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1588713346084,
+      "stop" : 1588713351275,
+      "duration" : 5191
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  } ]
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Adding Tasks",
+    "children" : [ {
+      "name" : "Adding the first task",
+      "uid" : "a6c87e8f68aa0a83",
+      "parentUid" : "c45e1b2e0fbfef04572764bd67ce7aa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713253462,
+        "stop" : 1588713326565,
+        "duration" : 73103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Adding 10 tasks",
+      "uid" : "160d69eb7be8805e",
+      "parentUid" : "c45e1b2e0fbfef04572764bd67ce7aa8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1588713326565,
+        "stop" : 1588713488554,
+        "duration" : 161989
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "c45e1b2e0fbfef04572764bd67ce7aa8"
+  }, {
+    "name" : "login form",
+    "children" : [ {
+      "name" : "Positive TC - Login Successful",
+      "uid" : "df8694ce9e84c418",
+      "parentUid" : "d146461eca322cf1bb8770d6b59b7101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713272050,
+        "stop" : 1588713333566,
+        "duration" : 61516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Invalid email",
+      "uid" : "977512f7daabc6b",
+      "parentUid" : "d146461eca322cf1bb8770d6b59b7101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713333567,
+        "stop" : 1588713339857,
+        "duration" : 6290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Wrong Pwd",
+      "uid" : "890fed63791bdd9",
+      "parentUid" : "d146461eca322cf1bb8770d6b59b7101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713339857,
+        "stop" : 1588713346084,
+        "duration" : 6227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Empty Pwd",
+      "uid" : "7ca1d95f8c8b0b24",
+      "parentUid" : "d146461eca322cf1bb8770d6b59b7101",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713346084,
+        "stop" : 1588713351275,
+        "duration" : 5191
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "d146461eca322cf1bb8770d6b59b7101"
+  } ]
+}

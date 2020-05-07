@@ -1,0 +1,117 @@
+{
+  "a52cef74a5b33f2f894d1e15c3bdcb66" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "977512f7daabc6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713333567,
+        "stop" : 1588713339857,
+        "duration" : 6290
+      }
+    } ]
+  },
+  "fe54327115f3f0a80f808a788530a76d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "160d69eb7be8805e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 100000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/gerardo.reyes/Documents/BuddyProject/qaBuddyProjectFE/test/specs/taskTest.js)",
+      "time" : {
+        "start" : 1588713326565,
+        "stop" : 1588713488554,
+        "duration" : 161989
+      }
+    } ]
+  },
+  "c264ccd4727566e20ad4ab2d253801b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df8694ce9e84c418",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713272050,
+        "stop" : 1588713333566,
+        "duration" : 61516
+      }
+    } ]
+  },
+  "3a72be55147e22b00c8b2511a88ddb9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ca1d95f8c8b0b24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713346084,
+        "stop" : 1588713351275,
+        "duration" : 5191
+      }
+    } ]
+  },
+  "8196b86c3218dd31e4e6b987c5dcdb22" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6c87e8f68aa0a83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713253462,
+        "stop" : 1588713326565,
+        "duration" : 73103
+      }
+    } ]
+  },
+  "e29b98ba4eab3bf9720f1e6e98dd4ec0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "890fed63791bdd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713339857,
+        "stop" : 1588713346084,
+        "duration" : 6227
+      }
+    } ]
+  }
+}

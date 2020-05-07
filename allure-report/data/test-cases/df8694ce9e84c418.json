@@ -1,0 +1,99 @@
+{
+  "uid" : "df8694ce9e84c418",
+  "name" : "Positive TC - Login Successful",
+  "fullName" : "login form.Positive TC - Login Successful",
+  "historyId" : "c264ccd4727566e20ad4ab2d253801b2",
+  "time" : {
+    "start" : 1588713272050,
+    "stop" : 1588713333566,
+    "duration" : 61516
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1588713272050,
+        "stop" : 1588713274118,
+        "duration" : 2068
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "login form"
+  }, {
+    "name" : "testClass",
+    "value" : "login form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Positive TC - Login Successful"
+  }, {
+    "name" : "package",
+    "value" : "login form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "52bb3ff4828c5ab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588709839617,
+        "stop" : 1588709900586,
+        "duration" : 60969
+      }
+    }, {
+      "uid" : "a6469124cea8aace",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588653535249,
+        "stop" : 1588653540458,
+        "duration" : 5209
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df8694ce9e84c418.json",
+  "parameterValues" : [ "chrome" ]
+}

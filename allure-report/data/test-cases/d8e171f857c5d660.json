@@ -1,0 +1,81 @@
+{
+  "uid" : "d8e171f857c5d660",
+  "name" : "Adding 10 tasks",
+  "fullName" : "Adding Tasks.Adding 10 tasks",
+  "historyId" : "fe54327115f3f0a80f808a788530a76d",
+  "time" : {
+    "start" : 1588709916417,
+    "stop" : 1588710068798,
+    "duration" : 152381
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1588709916417,
+        "stop" : 1588709974172,
+        "duration" : 57755
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Adding Tasks"
+  }, {
+    "name" : "testClass",
+    "value" : "Adding Tasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding 10 tasks"
+  }, {
+    "name" : "package",
+    "value" : "Adding Tasks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d8e171f857c5d660.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 100000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/gerardo.reyes/Documents/BuddyProject/qaBuddyProjectFE/test/specs/taskTest.js)",
+      "children" : [ {
+        "name" : "Adding 10 tasks",
+        "uid" : "160d69eb7be8805e",
+        "parentUid" : "5fae864b49f3f080159c218891666597",
+        "status" : "broken",
+        "time" : {
+          "start" : 1588713326565,
+          "stop" : 1588713488554,
+          "duration" : 161989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "5fae864b49f3f080159c218891666597"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

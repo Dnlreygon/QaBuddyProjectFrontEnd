@@ -1,0 +1,247 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Positive TC - Login Successful",
+      "uid" : "52bb3ff4828c5ab2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588709839617,
+        "stop" : 1588709900586,
+        "duration" : 60969
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Wrong Pwd",
+      "uid" : "efbbb74762cf516f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588653541399,
+        "stop" : 1588653542238,
+        "duration" : 839
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Invalid email",
+      "uid" : "977512f7daabc6b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713333567,
+        "stop" : 1588713339857,
+        "duration" : 6290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Empty Pwd",
+      "uid" : "7ca1d95f8c8b0b24",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713346084,
+        "stop" : 1588713351275,
+        "duration" : 5191
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Empty Pwd",
+      "uid" : "ff9179a54c0f66a6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588653542238,
+        "stop" : 1588653542725,
+        "duration" : 487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Invalid email",
+      "uid" : "2bc4d56564e15c0b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588709900586,
+        "stop" : 1588709907532,
+        "duration" : 6946
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Empty Pwd",
+      "uid" : "d3c763a5d7a4e22c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588709914938,
+        "stop" : 1588709921407,
+        "duration" : 6469
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Wrong Pwd",
+      "uid" : "890fed63791bdd9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713339857,
+        "stop" : 1588713346084,
+        "duration" : 6227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Positive TC - Login Successful",
+      "uid" : "df8694ce9e84c418",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713272050,
+        "stop" : 1588713333566,
+        "duration" : 61516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Positive TC - Login Successful",
+      "uid" : "a6469124cea8aace",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588653535249,
+        "stop" : 1588653540458,
+        "duration" : 5209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Invalid email",
+      "uid" : "7d04a9ad56123707",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588653540458,
+        "stop" : 1588653541398,
+        "duration" : 940
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Negative TC - Wrong Pwd",
+      "uid" : "442da5ffb5f94577",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588709907532,
+        "stop" : 1588709914938,
+        "duration" : 7406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Adding the first task",
+      "uid" : "609651eddc676ee0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588709841389,
+        "stop" : 1588709916417,
+        "duration" : 75028
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Adding 10 tasks",
+      "uid" : "160d69eb7be8805e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1588713326565,
+        "stop" : 1588713488554,
+        "duration" : 161989
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Adding the first task",
+      "uid" : "cfc0002b92ed722d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588653535219,
+        "stop" : 1588653543488,
+        "duration" : 8269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Adding 10 tasks",
+      "uid" : "7ac0adff67b4853a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588653543488,
+        "stop" : 1588653556308,
+        "duration" : 12820
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Adding the first task",
+      "uid" : "a6c87e8f68aa0a83",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588713253462,
+        "stop" : 1588713326565,
+        "duration" : 73103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Adding 10 tasks",
+      "uid" : "d8e171f857c5d660",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588709916417,
+        "stop" : 1588710068798,
+        "duration" : 152381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  } ]
+}

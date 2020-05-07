@@ -1,0 +1,107 @@
+{
+  "uid" : "160d69eb7be8805e",
+  "name" : "Adding 10 tasks",
+  "fullName" : "Adding Tasks.Adding 10 tasks",
+  "historyId" : "fe54327115f3f0a80f808a788530a76d",
+  "time" : {
+    "start" : 1588713326565,
+    "stop" : 1588713488554,
+    "duration" : 161989
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 100000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/gerardo.reyes/Documents/BuddyProject/qaBuddyProjectFE/test/specs/taskTest.js)",
+  "statusTrace" : "Error: Timeout of 100000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/gerardo.reyes/Documents/BuddyProject/qaBuddyProjectFE/test/specs/taskTest.js)\n                    at Test.Runnable._timeoutError (/Users/gerardo.reyes/Documents/BuddyProject/qaBuddyProjectFE/node_modules/mocha/lib/runnable.js:463:10)\n                    at Timeout.<anonymous> (/Users/gerardo.reyes/Documents/BuddyProject/qaBuddyProjectFE/node_modules/mocha/lib/runnable.js:267:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 100000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/gerardo.reyes/Documents/BuddyProject/qaBuddyProjectFE/test/specs/taskTest.js)",
+    "statusTrace" : "Error: Timeout of 100000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/gerardo.reyes/Documents/BuddyProject/qaBuddyProjectFE/test/specs/taskTest.js)\n                    at Test.Runnable._timeoutError (/Users/gerardo.reyes/Documents/BuddyProject/qaBuddyProjectFE/node_modules/mocha/lib/runnable.js:463:10)\n                    at Timeout.<anonymous> (/Users/gerardo.reyes/Documents/BuddyProject/qaBuddyProjectFE/node_modules/mocha/lib/runnable.js:267:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1588713326565,
+        "stop" : 1588713388553,
+        "duration" : 61988
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Adding Tasks"
+  }, {
+    "name" : "testClass",
+    "value" : "Adding Tasks"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding 10 tasks"
+  }, {
+    "name" : "package",
+    "value" : "Adding Tasks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d8e171f857c5d660",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588709916417,
+        "stop" : 1588710068798,
+        "duration" : 152381
+      }
+    }, {
+      "uid" : "7ac0adff67b4853a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588653543488,
+        "stop" : 1588653556308,
+        "duration" : 12820
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "160d69eb7be8805e.json",
+  "parameterValues" : [ "chrome" ]
+}

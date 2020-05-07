@@ -1,0 +1,99 @@
+{
+  "uid" : "890fed63791bdd9",
+  "name" : "Negative TC - Wrong Pwd",
+  "fullName" : "login form.Negative TC - Wrong Pwd",
+  "historyId" : "e29b98ba4eab3bf9720f1e6e98dd4ec0",
+  "time" : {
+    "start" : 1588713339857,
+    "stop" : 1588713346084,
+    "duration" : 6227
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1588713339857,
+        "stop" : 1588713340680,
+        "duration" : 823
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "login form"
+  }, {
+    "name" : "testClass",
+    "value" : "login form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Negative TC - Wrong Pwd"
+  }, {
+    "name" : "package",
+    "value" : "login form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "442da5ffb5f94577",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588709907532,
+        "stop" : 1588709914938,
+        "duration" : 7406
+      }
+    }, {
+      "uid" : "efbbb74762cf516f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588653541399,
+        "stop" : 1588653542238,
+        "duration" : 839
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "890fed63791bdd9.json",
+  "parameterValues" : [ "chrome" ]
+}

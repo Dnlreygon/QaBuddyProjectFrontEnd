@@ -1,0 +1,61 @@
+[ {
+  "uid" : "df8694ce9e84c418",
+  "name" : "Positive TC - Login Successful",
+  "time" : {
+    "start" : 1588713272050,
+    "stop" : 1588713333566,
+    "duration" : 61516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "890fed63791bdd9",
+  "name" : "Negative TC - Wrong Pwd",
+  "time" : {
+    "start" : 1588713339857,
+    "stop" : 1588713346084,
+    "duration" : 6227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "160d69eb7be8805e",
+  "name" : "Adding 10 tasks",
+  "time" : {
+    "start" : 1588713326565,
+    "stop" : 1588713488554,
+    "duration" : 161989
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "977512f7daabc6b",
+  "name" : "Negative TC - Invalid email",
+  "time" : {
+    "start" : 1588713333567,
+    "stop" : 1588713339857,
+    "duration" : 6290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ca1d95f8c8b0b24",
+  "name" : "Negative TC - Empty Pwd",
+  "time" : {
+    "start" : 1588713346084,
+    "stop" : 1588713351275,
+    "duration" : 5191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6c87e8f68aa0a83",
+  "name" : "Adding the first task",
+  "time" : {
+    "start" : 1588713253462,
+    "stop" : 1588713326565,
+    "duration" : 73103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
